@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 Data Management | Data Management Body of Knowledge Study Guide</title>
+  <meta name="description" content="This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 Data Management | Data Management Body of Knowledge Study Guide" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 Data Management | Data Management Body of Knowledge Study Guide" />
+  
+  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file." />
+  
+
+<meta name="author" content="Andrew Rosa" />
+
+
+<meta name="date" content="2022-01-31" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="cross.html"/>
+<script src="libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#order-of-book"><i class="fa fa-check"></i><b>1.1</b> Order of Book</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="data-management.html"><a href="data-management.html"><i class="fa fa-check"></i><b>2</b> Data Management</a><ul>
+<li class="chapter" data-level="2.0.1" data-path="data-management.html"><a href="data-management.html#business-drivers"><i class="fa fa-check"></i><b>2.0.1</b> Business Drivers</a></li>
+<li class="chapter" data-level="2.0.2" data-path="data-management.html"><a href="data-management.html#goals"><i class="fa fa-check"></i><b>2.0.2</b> Goals</a></li>
+<li class="chapter" data-level="2.1" data-path="data-management.html"><a href="data-management.html#essential-concepts"><i class="fa fa-check"></i><b>2.1</b> Essential Concepts</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="data-management.html"><a href="data-management.html#data-and-information"><i class="fa fa-check"></i><b>2.1.1</b> Data and Information</a></li>
+<li class="chapter" data-level="2.1.2" data-path="data-management.html"><a href="data-management.html#data-as-an-organizational-asset"><i class="fa fa-check"></i><b>2.1.2</b> Data as an Organizational Asset</a></li>
+<li class="chapter" data-level="2.1.3" data-path="data-management.html"><a href="data-management.html#data-management-principles"><i class="fa fa-check"></i><b>2.1.3</b> Data Management Principles</a></li>
+<li class="chapter" data-level="2.1.4" data-path="data-management.html"><a href="data-management.html#data-management-challenges"><i class="fa fa-check"></i><b>2.1.4</b> Data Management Challenges</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="cross.html"><a href="cross.html"><i class="fa fa-check"></i><b>3</b> Cross-references</a><ul>
+<li class="chapter" data-level="3.1" data-path="cross.html"><a href="cross.html#chapters-and-sub-chapters"><i class="fa fa-check"></i><b>3.1</b> Chapters and sub-chapters</a></li>
+<li class="chapter" data-level="3.2" data-path="cross.html"><a href="cross.html#captioned-figures-and-tables"><i class="fa fa-check"></i><b>3.2</b> Captioned figures and tables</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="parts.html"><a href="parts.html"><i class="fa fa-check"></i><b>4</b> Parts</a></li>
+<li class="chapter" data-level="5" data-path="footnotes-and-citations.html"><a href="footnotes-and-citations.html"><i class="fa fa-check"></i><b>5</b> Footnotes and citations</a><ul>
+<li class="chapter" data-level="5.1" data-path="footnotes-and-citations.html"><a href="footnotes-and-citations.html#footnotes"><i class="fa fa-check"></i><b>5.1</b> Footnotes</a></li>
+<li class="chapter" data-level="5.2" data-path="footnotes-and-citations.html"><a href="footnotes-and-citations.html#citations"><i class="fa fa-check"></i><b>5.2</b> Citations</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="blocks.html"><a href="blocks.html"><i class="fa fa-check"></i><b>6</b> Blocks</a><ul>
+<li class="chapter" data-level="6.1" data-path="blocks.html"><a href="blocks.html#equations"><i class="fa fa-check"></i><b>6.1</b> Equations</a></li>
+<li class="chapter" data-level="6.2" data-path="blocks.html"><a href="blocks.html#theorems-and-proofs"><i class="fa fa-check"></i><b>6.2</b> Theorems and proofs</a></li>
+<li class="chapter" data-level="6.3" data-path="blocks.html"><a href="blocks.html#callout-blocks"><i class="fa fa-check"></i><b>6.3</b> Callout blocks</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="sharing-your-book.html"><a href="sharing-your-book.html"><i class="fa fa-check"></i><b>7</b> Sharing your book</a><ul>
+<li class="chapter" data-level="7.1" data-path="sharing-your-book.html"><a href="sharing-your-book.html#publishing"><i class="fa fa-check"></i><b>7.1</b> Publishing</a></li>
+<li class="chapter" data-level="7.2" data-path="sharing-your-book.html"><a href="sharing-your-book.html#pages"><i class="fa fa-check"></i><b>7.2</b> 404 pages</a></li>
+<li class="chapter" data-level="7.3" data-path="sharing-your-book.html"><a href="sharing-your-book.html#metadata-for-sharing"><i class="fa fa-check"></i><b>7.3</b> Metadata for sharing</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Management Body of Knowledge Study Guide</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="data-management" class="section level1">
+<h1><span class="header-section-number">Chapter 2</span> Data Management</h1>
+<p>Gaining value from data requires intention, planning, coordination and commitment. Both management and leadership are needed to treat data as a vital enterprise asset.</p>
+<p><em>Data Management</em> is the development, execution, and supervision of plans, policies, programs, and practices that deliver, control, protect, and enhance the value of data and information assets through their life-cycles.</p>
+<p><em>Data Management Professional</em> is any person who works in any facet of data management to meet strategic organizational goals.</p>
+<p>Data management activities are wide-ranging, including the ability to make consistent decisions about how to get strategic value from data to the technical deployment and performance of databases. Both technical and non-technical skills are needed.</p>
+<div id="business-drivers" class="section level3">
+<h3><span class="header-section-number">2.0.1</span> Business Drivers</h3>
+<p>A key to competitive advantage is information/knowledge. Organizations that have reliable, high quality data about their customers, products, services, and operations can make better decisions than those without data or with unreliable data. Failure to manage data is similar to failure to manage capital. It results in waste and lost opportunity. The primary driver for data management is to enable organizations to get value from their data assets, just as effective management of financial and physical assets enables organizations to get value from those assets.</p>
+</div>
+<div id="goals" class="section level3">
+<h3><span class="header-section-number">2.0.2</span> Goals</h3>
+<p>Within an organization, data management goals include:</p>
+<ul>
+<li>Understanding and supporting the information needs of the enterprise and its stakeholders, including customers, employees, and business partners.</li>
+<li>Capturing, storing, protecting, and ensuring the integrity of data assets.</li>
+<li>Ensuring the quality of data and information.</li>
+<li>Ensuring the privacy and confident of stakeholder data.</li>
+<li>Preventing unauthorized or inappropriate access, manipulation, or use of data and information.</li>
+<li>Ensuring data can be used effectively to add value to the enterprise.</li>
+</ul>
+</div>
+<div id="essential-concepts" class="section level2">
+<h2><span class="header-section-number">2.1</span> Essential Concepts</h2>
+<p><em>Data</em> two definitions:</p>
+<ul>
+<li>Represents facts about the world.</li>
+<li>Information that has been stored digitally.</li>
+</ul>
+<p>Data is a means of representation. We need context for data to be meaningful. Context is data’s representational system, one that includes a common vocabulary and set of relationships between components.</p>
+<p>Industry-level data standards can bring more consistency to data.</p>
+<div id="data-and-information" class="section level3">
+<h3><span class="header-section-number">2.1.1</span> Data and Information</h3>
+<p>Data is called the raw material of information. Information is data in context.</p>
+<p><strong>Information - Data</strong></p>
+<ul>
+<li>Sales report for last quarter - Data from data warehouse</li>
+<li>Quarter over quarter performance measures - Quarter’s results</li>
+</ul>
+<p><em>Central tenet of data management</em>: Data and information need to be managed, both will be of higher quality if they are managed together with uses and customer requirements in mind.</p>
+</div>
+<div id="data-as-an-organizational-asset" class="section level3">
+<h3><span class="header-section-number">2.1.2</span> Data as an Organizational Asset</h3>
+<p>An asset is an economic resource, that can be owned or controlled, and that holds or produces value.</p>
+<p>Today’s organizations rely on their data assets to make more effective decisions and to operate more efficiently.</p>
+<p>Being data-driven includes the recognition that data must be managed efficiently and with professional discipline, through a partnership of business leadership and technical expertise.</p>
+</div>
+<div id="data-management-principles" class="section level3">
+<h3><span class="header-section-number">2.1.3</span> Data Management Principles</h3>
+<p>Data management shares characteristics with other forms of asset management. It involves knowing what data an organization has and what might be accomplished with it, then determining how best to use data assets to reach organizational goals.</p>
+<ul>
+<li><strong>Data is an asset with unique properties</strong>: Unlike other assets, data is not consumed when it is used.</li>
+<li><strong>The value of data can and should be expressed in economic terms</strong>: Organizations need to develop consistent ways to quantify value of data. Both the costs and low quality data and the benefits of high quality data should be measured as well.</li>
+<li><strong>Managing data means managing the quality of data</strong>: Important to understand stakeholders requirements for quality and measure against these requirements.</li>
+<li><strong>It takes Metadata to manage data</strong>: The data used to manage and use data is <em>Metadata</em>.</li>
+<li><strong>It takes planning to manage data</strong>: To coordinate work and keep the end results aligned requires planning from an architectural and process perspective.</li>
+<li><strong>Data management is cross-functional; it requires a range of skills and expertise</strong>: A single team cannot manage all of an organization’s data.</li>
+<li><strong>Data management requires an enterprise perspective</strong>: Data management has local application, but it must be applied across the enterprise to be as effective as possible.</li>
+<li><strong>Data management must account for a range of perspectives</strong>: Data management must constantly evolve to keep up with the ways data is created and used and the data consumers who use it.</li>
+<li><strong>Data management is life-cycle management</strong>: Data has a life-cycle and managing data requires managing its life-cycle.</li>
+<li><strong>Different types of data have different life-cycle characteristics</strong>: Data management practices have to be flexible enough to meet different kinds of data life-cycle requirements.</li>
+<li><strong>Managing data includes managing the risks associated with data</strong>: Data can be lost, stolen, or misused. Organizations need to consider the ethical implications of their uses of data.</li>
+<li><strong>Data management requirements must drive Information Technology decisions</strong>: Managing data requires an approach that ensures technology serves, rather than drives, an organization’s strategic data needs.</li>
+<li><strong>Effective data management requires leadership commitment</strong>: Data management involves a complex set of processes that, to be effective, require coordination, collaboration, and commitment. Getting there requires not only management skills, but also the vision and purpose that comes from committed leadership.</li>
+</ul>
+</div>
+<div id="data-management-challenges" class="section level3">
+<h3><span class="header-section-number">2.1.4</span> Data Management Challenges</h3>
+<ul>
+<li><strong>Data Differs from Other Assets</strong></li>
+</ul>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="cross.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/01-data-management.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

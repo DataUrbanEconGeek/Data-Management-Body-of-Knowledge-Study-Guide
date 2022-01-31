@@ -1,0 +1,77 @@
+# Data Management
+
+Gaining value from data requires intention, planning, coordination and commitment. Both management and leadership are needed to treat data as a vital enterprise asset. 
+
+*Data Management* is the development, execution, and supervision of plans, policies, programs, and practices that deliver, control, protect, and enhance the value of data and information assets through their life-cycles.
+
+*Data Management Professional* is any person who works in any facet of data management to meet strategic organizational goals. 
+
+Data management activities are wide-ranging, including the ability to make consistent decisions about how to get strategic value from data to the technical deployment and performance of databases. Both technical and non-technical skills are needed. 
+
+### Business Drivers
+
+A key to competitive advantage is information/knowledge. Organizations that have reliable, high quality data about their customers, products, services, and operations can make better decisions than those without data or with unreliable data. Failure to manage data is similar to failure to manage capital. It results in waste and lost opportunity. The primary driver for data management is to enable organizations to get value from their data assets, just as effective management of financial and physical assets enables organizations to get value from those assets. 
+
+### Goals
+
+Within an organization, data management goals include:
+
+ * Understanding and supporting the information needs of the enterprise and its stakeholders, including customers, employees, and business partners. 
+ * Capturing, storing, protecting, and ensuring the integrity of data assets.
+ * Ensuring the quality of data and information.
+ * Ensuring the privacy and confident of stakeholder data.
+ * Preventing unauthorized or inappropriate access, manipulation, or use of data and information.
+ * Ensuring data can be used effectively to add value to the enterprise. 
+
+## Essential Concepts
+
+*Data* two definitions:
+
+  * Represents facts about the world.
+  * Information that has been stored digitally. 
+
+Data is a means of representation. We need context for data to be meaningful. Context is data's representational system, one that includes a common vocabulary and set of relationships between components.
+
+Industry-level data standards can bring more consistency to data.
+
+
+### Data and Information
+
+Data is called the raw material of information. Information is data in context. 
+
+**Information - Data**
+
+ * Sales report for last quarter - Data from data warehouse
+ * Quarter over quarter performance measures - Quarter's results
+ 
+*Central tenet of data management*: Data and information need to be managed, both will be of higher quality if they are managed together with uses and customer requirements in mind.
+
+### Data as an Organizational Asset
+
+An asset is an economic resource, that can be owned or controlled, and that holds or produces value.
+
+Today's organizations rely on their data assets to make more effective decisions and to operate more efficiently. 
+
+Being data-driven includes the recognition that data must be managed efficiently and with professional discipline, through a partnership of business leadership and technical expertise. 
+
+### Data Management Principles
+
+Data management shares characteristics with other forms of asset management. It involves knowing what data an organization has and what might be accomplished with it, then determining how best to use data assets to reach organizational goals. 
+
+ * **Data is an asset with unique properties**: Unlike other assets, data is not consumed when it is used.
+ * **The value of data can and should be expressed in economic terms**: Organizations need to develop consistent ways to quantify value of data. Both the costs and low quality data and the benefits of high quality data should be measured as well.
+ * **Managing data means managing the quality of data**: Important to understand stakeholders requirements for quality and measure against these requirements.
+ * **It takes Metadata to manage data**: The data used to manage and use data is *Metadata*.
+ * **It takes planning to manage data**: To coordinate work and keep the end results aligned requires planning from an architectural and process perspective.
+ * **Data management is cross-functional; it requires a range of skills and expertise**: A single team cannot manage all of an organization's data. 
+ * **Data management requires an enterprise perspective**: Data management has local application, but it must be applied across the enterprise to be as effective as possible. 
+ * **Data management must account for a range of perspectives**: Data management must constantly evolve to keep up with the ways data is created and used and the data consumers who use it. 
+ * **Data management is life-cycle management**: Data has a life-cycle and managing data requires managing its life-cycle. 
+ * **Different types of data have different life-cycle characteristics**: Data management practices have to be flexible enough to meet different kinds of data life-cycle requirements.
+ * **Managing data includes managing the risks associated with data**: Data can be lost, stolen, or misused. Organizations need to consider the ethical implications of their uses of data.
+ * **Data management requirements must drive Information Technology decisions**: Managing data requires an approach that ensures technology serves, rather than drives, an organization's strategic data needs. 
+ * **Effective data management requires leadership commitment**: Data management involves a complex set of processes that, to be effective, require coordination, collaboration, and commitment. Getting there requires not only management skills, but also the vision and purpose that comes from committed leadership. 
+ 
+### Data Management Challenges
+ 
+  * **Data Differs from Other Assets**

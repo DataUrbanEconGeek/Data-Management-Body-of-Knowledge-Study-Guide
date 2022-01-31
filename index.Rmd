@@ -1,0 +1,42 @@
+--- 
+title: "Data Management Body of Knowledge Study Guide"
+author: "Andrew Rosa"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This is a minimal example of using the bookdown package to write a book.
+  The HTML output format for this example is bookdown::gitbook,
+  set in the _output.yml file.
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# About
+
+This is a study guide created from my notes on *DAMA International*'s **Data Mananegment Body of Knowledge**. I'm writing this to help prepare myself for the Data Management Fundementals Exam to earn an Associate Certified Data Management Professional Certification. 
+
+The exam is split into the following 14 topics: 
+
+  * Data Management Process – 2%
+  * Big Data – 2%
+  * Data Architecture – 6%
+  * Document and Content Management – 6%
+  * Data Ethics – 2%
+  * Data Governance – 11%
+  * Data Integration and Interoperability – 6%
+  * Master and Reference Data Management – 10%
+  * Data Modelling and Design – 11%
+  * Data Quality – 11%
+  * Data Security – 6%
+  * Data Storage and Operations – 6%
+  * Data Warehousing and  Business Intelligence – 10%
+  * Metadata Management – 11%
+
+## Order of Book 
+
+The Chapters of this study guide will correspond with how material is presented in the *DMBOK*, starting with the topic of Data Management. 
+
