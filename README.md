@@ -1,13 +1,5 @@
 Welcome! 
 
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). 
+This is a study guide created from my notes on *DAMA International*'s **Data Mananegment Body of Knowledge**. I'm writing this to help prepare myself for the Data Management Fundementals Exam to earn an Associate Certified Data Management Professional Certification. 
 
-This template provides a skeleton file structure that you can edit to create your book. 
-
-The contents inside the .Rmd files provide some pointers to help you get started, but feel free to also delete the content in each file and start fresh.
-
-Additional resources:
-
-The **bookdown** book: https://bookdown.org/yihui/bookdown/
-
-The **bookdown** package reference site: https://pkgs.rstudio.com/bookdown
+https://github.com/DataUrbanEconGeek/Data-Management-Body-of-Knowledge-Study-Guide
