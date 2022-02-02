@@ -1,5 +1,5 @@
 --- 
-title: "Data Management Body of Knowledge Study Guide"
+title: "Data Management Body of Knowledge Notes & Study Guide"
 author: "Andrew Rosa"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -36,7 +36,8 @@ The exam is split into the following 14 topics:
   * Data Warehousing and  Business Intelligence – 10%
   * Metadata Management – 11%
 
-## Order of Book 
+## Order of Book
 
 The Chapters of this study guide will correspond with how material is presented in the *DMBOK*, starting with the topic of Data Management. 
+
 

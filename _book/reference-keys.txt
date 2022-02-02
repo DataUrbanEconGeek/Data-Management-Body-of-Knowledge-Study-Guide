@@ -12,6 +12,10 @@ data-and-information
 data-as-an-organizational-asset
 data-management-principles
 data-management-challenges
+data-differs-from-other-assets
+data-valuation
+data-quality
+planning-for-better-data
 cross
 chapters-and-sub-chapters
 captioned-figures-and-tables
