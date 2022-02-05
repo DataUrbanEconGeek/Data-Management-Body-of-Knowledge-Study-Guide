@@ -1,34 +1,139 @@
-# Cross-references {#cross}
+# Data Handling Ethics 
 
-Cross-references make it easier for your readers to find and link to elements in your book.
+*Ethics* are principles of behavior based on ideas of right and wrong. Data handling ethics are concerned with how to procure, store, manage, use, and dispose of data in ways that are aligned with ethical principles.[@dmbok]
 
-## Chapters and sub-chapters
+Ethics of data handling core concepts:
 
-There are two steps to cross-reference any heading:
+ * Impact on people
+ * Potential for misuse
+ * Economic value of data
 
-1. Label the heading: `# Hello world {#nice-label}`. 
-    - Leave the label off if you like the automated heading generated based on your heading title: for example, `# Hello world` = `# Hello world {#hello-world}`.
-    - To label an un-numbered heading, use: `# Hello world {-#nice-label}` or `{# Hello world .unnumbered}`.
+Organizations protect data based largely on laws and regulatory requirements. Data management professionals should recognize that there are ethical reasons to protect data and ensure it is not misused.[@dmbok]
 
-1. Next, reference the labeled heading anywhere in the text using `\@ref(nice-label)`; for example, please see Chapter \@ref(cross). 
-    - If you prefer text as the link instead of a numbered reference use: [any text you want can go here](#cross).
+There is an ethical imperative not only to protect data, but also to manage its quality. People making decisions, as well as those impacted by decisions, expect data to be complete and accurate.[@dmbok] 
 
-## Captioned figures and tables
+## Business Drivers
 
-Figures and tables *with captions* can also be cross-referenced from elsewhere in your book using `\@ref(fig:chunk-label)` and `\@ref(tab:chunk-label)`, respectively.
+Ethics means "doing it right when no one is looking " -W. Edward Demings. [@dmbok]
 
-See Figure \@ref(fig:nice-fig).
+Reducing the risk that data for which the organization is responsible will be misused by employees, customers, or partners is a primary reason for an organization to cultivate ethical principles for data handling. There is also an ethical responsibility to secure data from criminals against hacking and potential data breaches. [@dmbok]
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center', fig.alt='Plot with connected points showing that vapor pressure of mercury increases exponentially as temperature increases.'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
+Handing data ethically requires organization-wide recognition of the risks associated with misuse of data and organizational commitment to handling data based on principles that protect individuals and respect the imperatives related to data ownership. [@dmbok]
 
-Don't miss Table \@ref(tab:nice-tab).
+## Essential Concepts
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(pressure, 10), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
+### Ethical Principles for Data
+
+**Respect for Persons**: This principle reflects the fundamental ethical requirement that people be treated in a way that respects their dignity and autonomy as human individuals. It also requires that in cases where people have "diminished autonomy", extra care be taken to protect their dignity and rights. [@dmbok]
+
+Do we design information systems in a way that limit autonomy or freedom of choice? Have we considered how processing data may affect people with mental or physical disabilities? [@dmbok]
+
+**Beneficence**: This principle has two elements: first, do no harm; second, maximizing possible benefits and minimizing possible harms. [@dmbok]
+
+Is there a less risky way to meet the requirements of the business need? Is the data handling in question lacking transparency in a way that might hide possible harm to people? [@dmbok]
+
+**Justice**: This principle considers the fair and equitable treatment of people. [@dmbok]
+
+Are people or groups of people being treated unequally under similar circumstances? Does the outcome of a process or algorithm results in effects that disproportionately benefit or harm a certain group of people? is machine learning being trained using data-sets that contain data inadvertently reinforcing cultural prejudices? [@dmbok]
+
+Adding a fourth principle: Respect for Law and Public Interest. [@dmbok]
+
+European Data Protection Supervisor:
+
+ * Future-oriented regulation of data processing and respect for the rights to privacy and to data protection
+ * Accountable controllers who determine personal information processing
+ * Privacy conscious engineering and design of data processing products and services
+ * Empowered individuals
+
+### Principles Behind Data Privacy Law
+
+Public policy and law try to codify right and wrong based on ethical principles. These principles can also provide a framework for organizational policy. [@dmbok]
+
+In 1980, the Organization for Economic Co-operation and Development (OECD) established Guidelines and Principles for Fair Information Processing that became the basis for the European Union's data protection laws. [@dmbok]
+
+OECD's eight core principles, the Fair Information Processing Standards, are intended to ensure that personal data is processed in a manner that respects individuals right to privacy. [@dmbok]
+
+The OECD principles have since been superseded by by principles underlying the General Data Protection Regulation of the EU. [@dmbok]
+
+The GDPR requires effective governance and documentation to enable and demonstrate compliance and mandates Privacy by Design. [@dmbok]
+
+Canadian privacy law combine a comprehensive regime of privacy protection with industry self-regulation. PIPEDA (Personal Information Protection and Electronic Documents Act) applies to every organization that collects, uses, and disseminates personal information in the course of commercial activities. [@dmbok]
+
+FTC's focus on Fair Information Processing Principles. [@dmbok]
+
+Other focuses for fair information practices include:
+
+ * Simplified consumer choice to reduce the burden placed on consumers
+ * The recommendation to maintain comprehensive data management procedure throughout the information life-cycle
+ * Do Not Track option
+ * Requirements for affirmative express consent
+ * Concerns regarding the data collection capabilities of large platform providers; transparency and clear privacy notices and policies
+ * Individuals access to data
+ * Educating consumers about data privacy practices
+ * Privacy by Design
+ 
+### Online Data in Ethical Context
+
+There are now emerging dozens of initiatives and programs designed to create a codified set of principles to inform ethical behaviors online in the United States. [@dmbok] Topics Include:
+
+ * Ownership of data
+ * The Right to be Forgotten
+ * Identity 
+ * Freedom of speech online
+ 
+### Risks of Unethical Data Handling Practices
+
+Misrepresenting facts while creating a veneer of factuality. [@dmbok]
+
+One way to understand the implications of ethical handling of data is to examine practices that most people would agree are unethical. [@dmbok]
+
+### Timing
+
+It is possible to lie through omission or inclusion of certain data points in a report or activity based on timing. [@dmbok]
+
+### Misleading Visualizations
+
+Charts and graphs can be used to present data in a misleading manner. [@dmbok]
+
+### Unclear Definitions or Invalid Comparisons
+
+The ethical thing to do, in presenting information, is to provide context that informs its meaning, such as a clear , unambiguous definition of the population being measured and what is means to be "on welfare." When required context is left out, the surface of the presentation may imply meaning that the data does not support. [@dmbok]
+
+It is also simply necessary, from an ethical perspective, not to misuse statistics. [@dmbok]
+
+### Bias
+
+*Bias* refers to an inclination of outlook. Bias can be introduced at different points in the data life-cycle: when data is collected or created, when it is selected for inclusion in analysis, through the methods by which it is analyzed, and in how the results of analysis are presented. [@dmbok]
+
+There are several types of bias:
+
+ * Data Collection for pre-defined result: The analyst is pressured to collect data and produce results in order to reach a pre-defined conclusion, rather than as an effort to draw an objective conclusion. [@dmbok]
+ * Biased use of data collected: Data may be collected with limited bias, but an analyst is pressured to use it to confirm a pre-determined approach. Data may even be manipulated to this end. [@dmbok]
+ * Hunch and search: The analyst has a hunch and wants to satisfy that hunch, but uses the data that confirms the hunch and does not account for the other possibilities that the data may surface. [@dmbok]
+ * Biased sampling methodology: Sampling is often a necessary is often part of data collection. But bias can be introduced by the method used to select the sampling set. It is virtually impossible for humans to sample without bias of some sort. To limit bias, use statistical tools to select samples and establish adequate sample sizes. An awareness of bias in data sets used for training is particularly important. [@dmbok]
+ * Context and Culture: Biases are often culturally or contextually-based, so stepping outside that culture or context is required for a neutral look at the situation. [@dmbok]
+ 
+It is not always possible or even desirable to remove all bias. Business bias against poor customers is a foundational piece to many scenarios built by business analyst. [@dmbok]
+
+### Transforming and Integrating Data
+
+Data integration presents ethical challenges because data is changed as it moves from system to system. [@dmbok] These ethical risks intersect with fundamental problems in data management, including:
+
+ * Limited knowledge of data's origin and lineage
+ * Data of poor quality
+ * Unreliable Metadata
+ * No documentation of data remediation history
+ 
+### Obfuscation / Redaction of Data
+
+Obfuscating or redacting data is the practice of making information anonymous, or removing sensitive information. But obfuscation alone may not be sufficient to protect data if a downstream activity can expose the data. [@dmbok]
+
+## Establishing an Ethical Data Culture
+
+Establishing a culture of ethical data handling requires understanding existing practices, defining expected behaviors, codifying these policies and a code of ethics, and providing training and oversight to enforce expected behaviors. This process requires strong leadership. [@dmbok]
+
+### Review Current State Data Handling Practices
+
+
+
+

@@ -1,12 +1,28 @@
-# Parts
+# Data Governance
 
-You can add parts to organize one or more book chapters together. Parts can be inserted at the top of an .Rmd file, before the first-level chapter heading in that same file. 
+*Data Governance* is defined as the exercise of authority and control over the  management of data assets. [@dmbok]
 
-Add a numbered part: `# (PART) Act one {-}` (followed by `# A chapter`)
+Those that establish a formal Data Governance program exercise authority and control with greater intentionally. Such organizations are better able to increase the value they get from their data assets. [@dmbok]
 
-Add an unnumbered part: `# (PART\*) Act one {-}` (followed by `# A chapter`)
+The Data Governance function guides all other data management functions. The purpose of Data Governance is to ensure that data is managed properly, according to policies and best practices. [@dmbok]
 
-Add an appendix as a special kind of un-numbered part: `# (APPENDIX) Other stuff {-}` (followed by `# A chapter`). Chapters in an appendix are prepended with letters instead of numbers.
+Most programs include:
 
+ * Strategy
+ * Policy
+ * Standards and quality
+ * Oversight
+ * Compliance
+ * Issue management
+ * Data management projects
+ * Data asset valuation
+ 
+For most organizations, adopting formal Data Governance requires the support of organizational change management, as well as sponsorship from a C-level executive, such as Chief Risk Officer, Chief Financial Officer, or Chief Data Officer. [@dmbok]
+ 
+Organizations becoming data-driven often face cultural challenges. Cultural challenges can derail any strategy. Data Governance efforts need to include a cultural change component, supported by strong leadership. [@dmbok]
+
+To Benefit from data as a corporate asset, the organizational culture must learn to value data and data management activities. Even with the best data strategy, data governance and data management plans will not succeed unless the organization accepts and manages change. [@dmbok]
+
+### Business Drivers
 
 
