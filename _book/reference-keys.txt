@@ -60,3 +60,8 @@ data-storage-operations
 data-security
 data-integration-and-interoperability
 document-and-content-management
+reference-and-master-data
+data-warehousing-and-business-intelligence
+metadata-management
+data-quality-1
+big-data-and-data-science
