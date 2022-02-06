@@ -87,21 +87,21 @@ Misrepresenting facts while creating a veneer of factuality. [@dmbok]
 
 One way to understand the implications of ethical handling of data is to examine practices that most people would agree are unethical. [@dmbok]
 
-### Timing
+#### Timing
 
 It is possible to lie through omission or inclusion of certain data points in a report or activity based on timing. [@dmbok]
 
-### Misleading Visualizations
+#### Misleading Visualizations
 
 Charts and graphs can be used to present data in a misleading manner. [@dmbok]
 
-### Unclear Definitions or Invalid Comparisons
+#### Unclear Definitions or Invalid Comparisons
 
 The ethical thing to do, in presenting information, is to provide context that informs its meaning, such as a clear , unambiguous definition of the population being measured and what is means to be "on welfare." When required context is left out, the surface of the presentation may imply meaning that the data does not support. [@dmbok]
 
 It is also simply necessary, from an ethical perspective, not to misuse statistics. [@dmbok]
 
-### Bias
+#### Bias
 
 *Bias* refers to an inclination of outlook. Bias can be introduced at different points in the data life-cycle: when data is collected or created, when it is selected for inclusion in analysis, through the methods by which it is analyzed, and in how the results of analysis are presented. [@dmbok]
 
@@ -115,7 +115,7 @@ There are several types of bias:
  
 It is not always possible or even desirable to remove all bias. Business bias against poor customers is a foundational piece to many scenarios built by business analyst. [@dmbok]
 
-### Transforming and Integrating Data
+#### Transforming and Integrating Data
 
 Data integration presents ethical challenges because data is changed as it moves from system to system. [@dmbok] These ethical risks intersect with fundamental problems in data management, including:
 
@@ -124,16 +124,52 @@ Data integration presents ethical challenges because data is changed as it moves
  * Unreliable Metadata
  * No documentation of data remediation history
  
-### Obfuscation / Redaction of Data
+#### Obfuscation / Redaction of Data
 
 Obfuscating or redacting data is the practice of making information anonymous, or removing sensitive information. But obfuscation alone may not be sufficient to protect data if a downstream activity can expose the data. [@dmbok]
 
-## Establishing an Ethical Data Culture
+### Establishing an Ethical Data Culture
 
 Establishing a culture of ethical data handling requires understanding existing practices, defining expected behaviors, codifying these policies and a code of ethics, and providing training and oversight to enforce expected behaviors. This process requires strong leadership. [@dmbok]
 
-### Review Current State Data Handling Practices
+#### Review Current State Data Handling Practices
 
+The purpose of reviewing existing data handling practices is to understand the degree to which they are directly and explicitly connected to ethical and compliance drivers. The deliverable from the review should document ethical principles that underlie the organization's collection, use and oversight of data throughout the data life-cycle, including data sharing activities. [@dmbok]
 
+#### Identify Principles, Practices, and Risk Factors.
 
+The purpose of formalizing ethical practices around data handling is to reduce the risk that data might be misused and cause harm to customers, employees, vendors, other stakeholders, or the organization as a whole. [@dmbok]
+
+Principles should be aligned with risks and practices. Practices should be supported by controls. [@dmbok]
+
+#### Create an Ethical Data Handling Strategy and Roadmap
+
+This strategy must express both ethical principles and expected behavior related to data, expressed in values statements and a code of ethical behavior. The component pieces of such a strategy include [@dmbok]:
+
+ * Values statements
+ * Ethical data handling principles
+ * Compliance framework
+ * Risk assessments
+ * Training and communications
+ * Roadmap
+ * Approach to auditing and monitoring
+
+#### Adopt a Socially Responsible Ethical Risk Model
+
+Projects that use personal data should have a disciplined approach to the use of that data. They should account for [@dmbok]:
+
+ * How they select their populations for study
+ * How data will be captured
+ * What activities analytics will focus on
+ * How the results will be made accessible
+ 
+Within each area of consideration, they should address potential ethical risks, with a particular focus on possible negative effects on customers or citizens. [@dmbok]
+
+Organizations need to actively identify potential risks. They also need to protect whistleblowers who do see risks and raise concerns. [@dmbok]
+
+### Data Ethics and Governance
+
+Oversight for the appropriate handling of data falls under both data governance and legal counsel. Data Governance must set standards and policies for and provide oversight of data handling practices. [@dmbok]
+
+DAMA International's Certified Data Management Professional (CDMP) certification requires that data management professional subscribe to a formal code of ethics, including an obligation to handle data ethically for the sake of society beyond the organization that employs them. [@dmbok]
 

@@ -37,6 +37,15 @@ essential-concepts-1
 ethical-principles-for-data
 principles-behind-data-privacy-law
 online-data-in-ethical-context
+risks-of-unethical-data-handling-practices
+timing
+misleading-visualizations
+unclear-definitions-or-invalid-comparisons
+bias
+transforming-and-integrating-data
+obfuscation-redaction-of-data
+establishing-an-ethical-data-culture
+review-current-state-data-handling-practices
 data-governance
 business-drivers-2
 footnotes-and-citations

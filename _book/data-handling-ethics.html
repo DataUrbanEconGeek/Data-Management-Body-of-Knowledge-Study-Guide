@@ -168,6 +168,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.2.1" data-path="data-handling-ethics.html"><a href="data-handling-ethics.html#ethical-principles-for-data"><i class="fa fa-check"></i><b>3.2.1</b> Ethical Principles for Data</a></li>
 <li class="chapter" data-level="3.2.2" data-path="data-handling-ethics.html"><a href="data-handling-ethics.html#principles-behind-data-privacy-law"><i class="fa fa-check"></i><b>3.2.2</b> Principles Behind Data Privacy Law</a></li>
 <li class="chapter" data-level="3.2.3" data-path="data-handling-ethics.html"><a href="data-handling-ethics.html#online-data-in-ethical-context"><i class="fa fa-check"></i><b>3.2.3</b> Online Data in Ethical Context</a></li>
+<li class="chapter" data-level="3.2.4" data-path="data-handling-ethics.html"><a href="data-handling-ethics.html#risks-of-unethical-data-handling-practices"><i class="fa fa-check"></i><b>3.2.4</b> Risks of Unethical Data Handling Practices</a></li>
+<li class="chapter" data-level="3.2.5" data-path="data-handling-ethics.html"><a href="data-handling-ethics.html#establishing-an-ethical-data-culture"><i class="fa fa-check"></i><b>3.2.5</b> Establishing an Ethical Data Culture</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="data-governance.html"><a href="data-governance.html"><i class="fa fa-check"></i><b>4</b> Data Governance</a><ul>
@@ -229,13 +231,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2><span class="header-section-number">3.2</span> Essential Concepts</h2>
 <div id="ethical-principles-for-data" class="section level3">
 <h3><span class="header-section-number">3.2.1</span> Ethical Principles for Data</h3>
-<p><strong>Respect for Persons</strong>: This principle reflects the fundamental ethical requirement that people be treated in a way that respects their dignity and autonomy as human individuals. It also requires that in cases where people have “diminished autonomy”, extra care be taken to protect their dignity and rights.</p>
-<p>Do we design information systems in a way that limit autonomy or freedom of choice? Have we considered how processing data may affect people with mental or physical disabilities?</p>
-<p><strong>Beneficence</strong>: This principle has two elements: first, do no harm; second, maximizing possible benefits and minimizing possible harms.</p>
-<p>Is there a less risky way to meet the requirements of the business need? Is the data handling in question lacking transparency in a way that might hide possible harm to people?</p>
-<p><strong>Justice</strong>: This principle considers the fair and equitable treatment of people.</p>
-<p>Are people or groups of people being treated unequally under similar circumstances? Does the outcome of a process or algorithm results in effects that disproportionately benefit or harm a certain group of people? is machine learning being trained using data-sets that contain data inadvertently reinforcing cultural prejudices?</p>
-<p>Adding a fourth principle: Respect for Law and Public Interest.</p>
+<p><strong>Respect for Persons</strong>: This principle reflects the fundamental ethical requirement that people be treated in a way that respects their dignity and autonomy as human individuals. It also requires that in cases where people have “diminished autonomy”, extra care be taken to protect their dignity and rights. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+<p>Do we design information systems in a way that limit autonomy or freedom of choice? Have we considered how processing data may affect people with mental or physical disabilities? <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+<p><strong>Beneficence</strong>: This principle has two elements: first, do no harm; second, maximizing possible benefits and minimizing possible harms. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+<p>Is there a less risky way to meet the requirements of the business need? Is the data handling in question lacking transparency in a way that might hide possible harm to people? <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+<p><strong>Justice</strong>: This principle considers the fair and equitable treatment of people. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+<p>Are people or groups of people being treated unequally under similar circumstances? Does the outcome of a process or algorithm results in effects that disproportionately benefit or harm a certain group of people? is machine learning being trained using data-sets that contain data inadvertently reinforcing cultural prejudices? <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+<p>Adding a fourth principle: Respect for Law and Public Interest. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
 <p>European Data Protection Supervisor:</p>
 <ul>
 <li>Future-oriented regulation of data processing and respect for the rights to privacy and to data protection</li>
@@ -246,13 +248,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="principles-behind-data-privacy-law" class="section level3">
 <h3><span class="header-section-number">3.2.2</span> Principles Behind Data Privacy Law</h3>
-<p>Public policy and law try to codify right and wrong based on ethical principles. These principles can also provide a framework for organizational policy.</p>
-<p>In 1980, the Organization for Economic Co-operation and Development (OECD) established Guidelines and Principles for Fair Information Processing that became the basis for the European Union’s data protection laws.</p>
-<p>OECD’s eight core principles, the Fair Information Processing Standards, are intended to ensure that personal data is processed in a manner that respects individuals right to privacy.</p>
-<p>The OECD principles have since been superseded by by principles underlying the General Data Protection Regulation of the EU</p>
-<p>The GDPR requires effective governance and documentation to enable and demonstrate compliance and mandates Privacy by Design.</p>
-<p>Canadian privacy law combine a comprehensive regime of privacy protection with industry self-regulation. PIPEDA (Personal Information Protection and Electronic Documents Act) applies to every organization that collects, uses, and disseminates personal information in the course of commercial activities.</p>
-<p>FTC’s focus on Fair Information Processing Principles.</p>
+<p>Public policy and law try to codify right and wrong based on ethical principles. These principles can also provide a framework for organizational policy. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+<p>In 1980, the Organization for Economic Co-operation and Development (OECD) established Guidelines and Principles for Fair Information Processing that became the basis for the European Union’s data protection laws. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+<p>OECD’s eight core principles, the Fair Information Processing Standards, are intended to ensure that personal data is processed in a manner that respects individuals right to privacy. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+<p>The OECD principles have since been superseded by by principles underlying the General Data Protection Regulation of the EU. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+<p>The GDPR requires effective governance and documentation to enable and demonstrate compliance and mandates Privacy by Design. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+<p>Canadian privacy law combine a comprehensive regime of privacy protection with industry self-regulation. PIPEDA (Personal Information Protection and Electronic Documents Act) applies to every organization that collects, uses, and disseminates personal information in the course of commercial activities. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+<p>FTC’s focus on Fair Information Processing Principles. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
 <p>Other focuses for fair information practices include:</p>
 <ul>
 <li>Simplified consumer choice to reduce the burden placed on consumers</li>
@@ -267,7 +269,66 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="online-data-in-ethical-context" class="section level3">
 <h3><span class="header-section-number">3.2.3</span> Online Data in Ethical Context</h3>
+<p>There are now emerging dozens of initiatives and programs designed to create a codified set of principles to inform ethical behaviors online in the United States. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span> Topics Include:</p>
+<ul>
+<li>Ownership of data</li>
+<li>The Right to be Forgotten</li>
+<li>Identity</li>
+<li>Freedom of speech online</li>
+</ul>
+</div>
+<div id="risks-of-unethical-data-handling-practices" class="section level3">
+<h3><span class="header-section-number">3.2.4</span> Risks of Unethical Data Handling Practices</h3>
+<p>Misrepresenting facts while creating a veneer of factuality. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+<p>One way to understand the implications of ethical handling of data is to examine practices that most people would agree are unethical. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+<div id="timing" class="section level4">
+<h4><span class="header-section-number">3.2.4.1</span> Timing</h4>
+<p>It is possible to lie through omission or inclusion of certain data points in a report or activity based on timing. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+</div>
+<div id="misleading-visualizations" class="section level4">
+<h4><span class="header-section-number">3.2.4.2</span> Misleading Visualizations</h4>
+<p>Charts and graphs can be used to present data in a misleading manner. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+</div>
+<div id="unclear-definitions-or-invalid-comparisons" class="section level4">
+<h4><span class="header-section-number">3.2.4.3</span> Unclear Definitions or Invalid Comparisons</h4>
+<p>The ethical thing to do, in presenting information, is to provide context that informs its meaning, such as a clear , unambiguous definition of the population being measured and what is means to be “on welfare.” When required context is left out, the surface of the presentation may imply meaning that the data does not support. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+<p>It is also simply necessary, from an ethical perspective, not to misuse statistics. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+</div>
+<div id="bias" class="section level4">
+<h4><span class="header-section-number">3.2.4.4</span> Bias</h4>
+<p><em>Bias</em> refers to an inclination of outlook. Bias can be introduced at different points in the data life-cycle: when data is collected or created, when it is selected for inclusion in analysis, through the methods by which it is analyzed, and in how the results of analysis are presented. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+<p>There are several types of bias:</p>
+<ul>
+<li>Data Collection for pre-defined result: The analyst is pressured to collect data and produce results in order to reach a pre-defined conclusion, rather than as an effort to draw an objective conclusion. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></li>
+<li>Biased use of data collected: Data may be collected with limited bias, but an analyst is pressured to use it to confirm a pre-determined approach. Data may even be manipulated to this end. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></li>
+<li>Hunch and search: The analyst has a hunch and wants to satisfy that hunch, but uses the data that confirms the hunch and does not account for the other possibilities that the data may surface. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></li>
+<li>Biased sampling methodology: Sampling is often a necessary is often part of data collection. But bias can be introduced by the method used to select the sampling set. It is virtually impossible for humans to sample without bias of some sort. To limit bias, use statistical tools to select samples and establish adequate sample sizes. An awareness of bias in data sets used for training is particularly important. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></li>
+<li>Context and Culture: Biases are often culturally or contextually-based, so stepping outside that culture or context is required for a neutral look at the situation. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></li>
+</ul>
+<p>It is not always possible or even desirable to remove all bias. Business bias against poor customers is a foundational piece to many scenarios built by business analyst. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+</div>
+<div id="transforming-and-integrating-data" class="section level4">
+<h4><span class="header-section-number">3.2.4.5</span> Transforming and Integrating Data</h4>
+<p>Data integration presents ethical challenges because data is changed as it moves from system to system. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span> These ethical risks intersect with fundamental problems in data management, including:</p>
+<ul>
+<li>Limited knowledge of data’s origin and lineage</li>
+<li>Data of poor quality</li>
+<li>Unreliable Metadata</li>
+<li>No documentation of data remediation history</li>
+</ul>
+</div>
+<div id="obfuscation-redaction-of-data" class="section level4">
+<h4><span class="header-section-number">3.2.4.6</span> Obfuscation / Redaction of Data</h4>
+<p>Obfuscating or redacting data is the practice of making information anonymous, or removing sensitive information. But obfuscation alone may not be sufficient to protect data if a downstream activity can expose the data. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+</div>
+</div>
+<div id="establishing-an-ethical-data-culture" class="section level3">
+<h3><span class="header-section-number">3.2.5</span> Establishing an Ethical Data Culture</h3>
+<p>Establishing a culture of ethical data handling requires understanding existing practices, defining expected behaviors, codifying these policies and a code of ethics, and providing training and oversight to enforce expected behaviors. This process requires strong leadership. <span class="citation">(Mosley and Brackett <a href="#ref-dmbok">2010</a>)</span></p>
+<div id="review-current-state-data-handling-practices" class="section level4">
+<h4><span class="header-section-number">3.2.5.1</span> Review Current State Data Handling Practices</h4>
 
+</div>
 </div>
 </div>
 </div>
