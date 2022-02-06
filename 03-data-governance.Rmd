@@ -25,4 +25,67 @@ To Benefit from data as a corporate asset, the organizational culture must learn
 
 ### Business Drivers
 
+Data governance is not an end in itself. It needs to align directly with organizational strategy. The more clearly it helps solve organizational problems, the more likely people will change behaviors and adopt governance practices. Drivers for data governance most often focus on reducing risks or improving processes.
+
+ * Reducing Risk
+   + General risk management
+   + Data security
+   + Privacy
+ * Improving Processes
+   + Regulatory compliance
+   + Data quality improvement
+   + Metadata Management
+   + Efficiency in development projects
+   + Vendor management
+  
+It is important to claify the particular business drivers for data goverance within an organization and to align them with overall business strategy. 
+
+Data goverance is not a one-time thing. Governing data requires an ongiong program focused on ensuring that an organization gets value from its data and reduces risks related to data.. A Data Governance team can be a virtual organization or a line organization with specific accountabilities. To be effective, the roles and activities within data governance need to be well understood. They should be built around an operating framework that functions well in the organization. A data governance program should take into account distinctive organizational and cultural issues and the specific data management challanges and opportunities within the organization.
+
+### Goals and Principles
+
+The goal of Data Governance is to enable an organization to manage dat as an asset. To achieve this overal goal a DG program must be sustainable, embedded, and measured.
+
+THe following principles can help set a strong foundation for data governance:
+
+ * **Leadership and strategy**: Successfuk Data Governance starts with visionary and committed leadership. Data management activities are guided by a data strategy that is itself drvien by the enterprise business strategy.
+ * **Business-driven**: Data Governance is a business program, and, as such, must govern IT decisions related to data as much as it governs business interaction with data.
+ * **Shared responsibility**: Across all Data Management Knowledge Areas, data governance is a shared resposibility between business data stewards and technical data management professionals.
+ * **Multi-layered**: Data Governance occurs at both the enterprise and local levels and often at levels in between.
+ * **Framework-based**: Because data governance activities require coordination across functional areas, the DG program must establish an operating framework that defines accountabilities and interactions.
+ * **Principle-based**: Guiding principles are the foundation of DG activities, and especially of DG policy. Often, organizations develop policy without formal principles - they are trying to solve particular problems. Principles can sometimes be reverse-engineered from policy. However, it is best to articulate a core set of principles and best practices as part of policy work. Reference to principles can mitigate potential resistance. Additional guiding principles will emerge over time within an organization. Publish them in a shared internal enviroment along with other data governance artifacts. 
+ 
+### Essential Concepts
+
+Data governance ensures data is properly managed without directly executing data management. Data governance represents an inherent separation of duty between oversight and execution.
+
+#### Data-centric Organization
+
+A data-centric organization values data as an asset and manages data through all phases of its life-cycle, including project development and ongoing operations. Data is no longer treated as a by-product or process and applications. Ensuring data is of high quality is a goal of business processes. As organizations strive to make descisions based on insights gained from analytics, effective data managment becomes a very high priority. 
+
+To become data-centric, organizations need to think differently and recognize that managing data is different from managing IT.
+
+While each organization needs to evolve its own principles, those that seek to get more value from their data are likely to share the following:
+
+ * Data should be managed as a corporate asset
+ * Data management best practices should be incented across the organization
+ * Enterprise data strategy must be directly aligned with overall business strategy
+ * Data management processes should be continuously improved
+ 
+#### Data Goverance Organization
+
+Data governance includes:
+
+ * Legislation-like functions - defining policies, standars, and the Enterprise Data Architecture
+ * Judicial-like functions - issue management and escalation
+ * Executive functions - protecting and serving, administrative responsibilities
+ 
+ Each organization should adopt a governance model that supports its business strategy and is likely to succeed within its own cultural context. 
+ 
+ #### Data Governance Operating Model Types
+ 
+ #### Data Stewardship
+ 
+ *Data Stewardship* is the most common label to describe accountability and responsibility for data and processes that ensure effective control and use of data assets.
+ 
 
