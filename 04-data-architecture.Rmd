@@ -1,1 +1,33 @@
 # Data Architecture
+
+In general, architecture refers to an organized arrangement of component elements intended to optimize the function, performance, feasibility, cost, and aesthetics of an overall structure or system. [@dmbok]
+
+One reason architectural frameworks  are valuable is that they enable non-architects to understand relationships. [@dmbok]
+
+Well-managed enterprise architecture practices help organizations understand the current state of their systems, promote desirable change toward future state,, enable regulatory compliance, and improve effectiveness. [@dmbok]
+
+Focus of this section:
+
+ * Data Architecture outcomes
+ * Data Architecture activities
+ * Data Architecture behavior
+ 
+Data architecture is fundamental to data management. Because most organizations have more data than individual people can comprehend, it is necessary to represent organizational data at different levels of abstraction so that it can be understood and management can make decisions about it. [@dmbok]
+
+The most detailed data architecture design document is a formal enterprise data model, containing data names, comprehensive data and Metadata definitions, conceptual and logical entities and relationships and business rules. [@dmbok]
+
+Data architecture is most valuable when it fully supports the needs of the entire enterprise. Enterprise Data architecture enables consistent data standardization and integration across the enterprise. [@dmbok]
+
+Forward-looking organizations should include data management professionals when they are designing new market offerings, because nowadays these usually include hardware, software, and services that capture data, depend on data access, or both. [@dmbok]
+
+### Business Drivers
+
+The goal of Data Architecture is to be a bridge between business strategy and technology execution. [@dmbok] Data Architects:
+
+ * Strategically prepare organizations to quickly evolve their products, services, and data to take advantage of business opportunities inherent in emerging technologies
+ * Translate business needs into data and system requirements so that processes consistently have data they require 
+ * Manage complex data and information delivery throughout the enterprise
+ * Facilitate alignment between Business and IT
+ * Act as agents for change, transformation, and agility
+ 
+
